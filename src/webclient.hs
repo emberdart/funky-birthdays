@@ -152,7 +152,7 @@ Count types:
         -- elAttr "footer" [("class", "footer")] $
         --     elAttr "div" [("class", "container")] $
         --         elAttr "span" [("class", "muted")] $
-        --             text "Copyright © Dan Dart, 2025"
+        --             text "Copyright © Ember Dart, 2025"
 
 #if defined(wasm32_HOST_ARCH)
 foreign export javascript "hs_start" main :: IO ()

@@ -23,4 +23,6 @@ source-repository-package
   subdir: reflex-dom-core
 
 allow-newer: base, containers, ghc-bignum, ghc-experimental, template-haskell, time
-constraints: reflex-dom -use-warp -webkit2gtk
+-- https://github.com/haskell/process/issues/357
+constraints: process==1.6.26.1, reflex-dom -use-warp -webkit2gtk
+allow-older: process

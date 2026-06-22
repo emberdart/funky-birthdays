@@ -28,7 +28,7 @@ library
     , iCalendar        ^>=0.4.1.1
     , numeric-prelude  ^>=0.4.4
     , text             ^>=2.1.2
-    , time             ^>=1.15
+    , time             ^>=1.16
 
   -- , datetime
   -- , datetime
@@ -54,7 +54,7 @@ executable echoCal
     , bytestring       ^>=0.12.2
     , containers       ^>=0.8
     , funky-birthdays  ^>=0.2
-    , time             ^>=1.15
+    , time             ^>=1.16
 
   -- , datetime
   hs-source-dirs:     src
@@ -84,7 +84,7 @@ executable writeCal
     , bytestring       ^>=0.12.2
     , containers       ^>=0.8
     , funky-birthdays  ^>=0.2
-    , time             ^>=1.15
+    , time             ^>=1.16
 
   -- , datetime
   hs-source-dirs:     src
