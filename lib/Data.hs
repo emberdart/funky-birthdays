@@ -42,7 +42,7 @@ times = [
 
 people ∷ [PersonData]
 people = [
-    ("Dan", read "1991-06-04 00:37:00"),
+    ("Ember", read "1991-06-04 00:37:00"),
     ("Colin", read "1991-06-10 00:00:00"),
     ("Raven", read "1992-11-19 00:00:00")
     ]
